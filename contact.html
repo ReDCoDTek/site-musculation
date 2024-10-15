@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Musculation Expert</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -21,19 +21,31 @@
     </header>
 
     <section>
-        <h2>Envoyez-nous un message</h2>
-        <form action="/submit" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required><br>
-
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required><br>
-
-            <label for="message">Votre question :</label>
-            <textarea id="message" name="message"></textarea><br>
-
-            <input type="submit" value="Envoyer">
-        </form>
+        <h2>Envoyez-nous un message</h2
+            </form action="https://formspree.io/f/mrbgzvlb"
+            method="POST"
+          >
+            <label>
+              Votre email :
+              <input type="email" name="email">
+            </label>
+            <label>
+              Votre message: 
+              <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Envoyer</button>
     </section>
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%; 
+        }
+      </style>
+    <img src="images/image10.jpg" alt="Pyramide nutritive">
+    <footer></footer>
+        &copy; 2024 Muscu for life  cr : Rayan Oujouhou
+    </footer>
 </body>
 </html>
